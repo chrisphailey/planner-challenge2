@@ -26,8 +26,13 @@ textarea{
 }
 
 .time-block{
-  text-align: center;
-  border-radius: 15px;
+  border-radius: 5px;
+  border-top: 5px solid rgb(167, 165, 165);
+  border-bottom: 5px solid rgb(167, 165, 165);
+  border-right: 5px solid rgb(167, 165, 165);
+  font-weight: bold;
+  padding: .75rem;
+  text-align: end;
 }
 
 .row {
@@ -68,4 +73,26 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+.tasks {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  background-color: rgb(219, 216, 216);
+}
+.save-btn {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(63, 157, 185);
+}
+input {
+  text-decoration: none;
+  border: none;
+}
+textarea{
+  border: none;
+}
+.tasks-bg{
+  background-color: rgb(219, 216, 216);
 }
