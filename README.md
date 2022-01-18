@@ -4,7 +4,7 @@ This application is an event planner that is color coded based on if the timeblo
 Click the blue save button next to the corresponding time block to save the input to local storage.
 
 ## Screenshot
-![Work-Day-Planner](.Develop/Work-Day-Scheduler-screenshot.png)
+![Work-Day-Planner](./Develop/Work-Day-Scheduler-screenshot.png)
 
 URL To Application: https://chrisphailey.github.io/planner-challenge2/
 
