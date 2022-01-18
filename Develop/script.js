@@ -17,14 +17,16 @@ for(var i=0; i < 9; i++){
         document.getElementById(inputArray[i]).style.backgroundColor = "rgb(219, 216, 216)";
     }
 }
+
 // Populate textarea with local storage data
 function populateData(){
-    var key = keysArray[i]
     for(var i=0; i < keysArray.length; i++){
+        var key = keysArray[i];
         if(localStorage.getItem(key)){
-            var text = document.getElementById(key);
-            text.value = localStorage.getItem(key);
-        }
+            var taskEl = document.getElementById(key);
+            var taskText = localStorage.getItem(key);
+            taskEl.value = taskText
+        } 
     }
 }
 populateData();

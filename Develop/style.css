@@ -96,3 +96,6 @@ textarea{
 .tasks-bg{
   background-color: rgb(219, 216, 216);
 }
+.save-btn:hover {
+  background-color: lightskyblue;
+}
